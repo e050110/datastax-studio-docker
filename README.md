@@ -16,5 +16,5 @@ With this solution, if you stop your container and them start it again, you won'
 
 ```
 mkdir /localpath/to/studio-data
-docker run -p 9091:9091 -v /localpath/to/studio-data:/var/lib/datastax-studio datastax-studio
+docker run -p 9091:9091 -v /localpath/to/studio-data:/var/lib/datastax-studio jeremievallee/datastax-studio-docker
 ```
