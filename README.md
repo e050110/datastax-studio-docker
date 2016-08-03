@@ -1,6 +1,6 @@
 # datastax-studio-docker
 
-DataStax Studio on a Docker Container.
+DataStax Studio 1.0.0 on a Docker Container.
 
 ## Start DataStax Studio
 
