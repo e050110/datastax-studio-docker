@@ -1,0 +1,12 @@
+---
+
+version: '2'
+
+services:
+  dsestudio:
+    image: datastax-studio:latest
+    ports:
+      - 9091:9091
+    container_name: dse-studio
+    volumes:
+      - ./studio-data:/var/lib/datastax-studio
