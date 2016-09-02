@@ -8,3 +8,5 @@ services:
     ports:
       - 9091:9091
     container_name: dse-studio
+    volumes:
+      - /path/to/studio-data:/var/lib/datastax-studio
