@@ -16,6 +16,8 @@ RUN sed -i "s/  baseDirectory: null/  baseDirectory: \/var\/lib\/datastax-studio
 
 WORKDIR /
 
+VOLUME [ "/var/lib/datastax-studio" ]
+
 # Expose DataStax Studio Port
 EXPOSE 9091
 
